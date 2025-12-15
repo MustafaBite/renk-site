@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f5f5;
+}
+
+.wrap {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+}
+
+.box {
+  width: 220px;
+  height: 140px;
+  border-radius: 12px;
+  background: #4a90e2;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.btn {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+}
